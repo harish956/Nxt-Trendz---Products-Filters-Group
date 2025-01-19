@@ -1,0 +1,86 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+.searchIcon {
+  border: solid 0px;
+  border-left: 0px;
+  height: 35px;
+  width: 25px;
+  background-color: #f1f5f9;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-right: 5px;
+}
+.searchElement {
+  height: 35px;
+  outline: none;
+  width: 100%;
+  height: 35px;
+  border-right: 0px;
+  border-width: 0px;
+  background-color: #f1f5f9;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 5px;
+  margin-right: 20px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+  .searchElement {
+    height: 35px;
+    outline: none;
+    width: 350px;
+    height: 35px;
+    border-right: 0px;
+    border-width: 0px;
+    background-color: #f1f5f9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 5px;
+  }
+}
+.ratings-container {
+  display: flex;
+  flex-direction: column;
+}
+.rating-item-container {
+  display: flex;
+  align-items: center;
+}
+.filter-button {
+  background: none;
+  outline: none;
+  border-width: 2px;
+  border-color: #5305fc;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 8px;
+}
+.category-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.category-button {
+  border: 0px;
+  background: none;
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 17px;
+  color: #64748b;
+}
+/* Write your CSS here */
